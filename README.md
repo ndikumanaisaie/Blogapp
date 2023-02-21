@@ -108,10 +108,7 @@ To run the project, follow these instructions:
 
 ### Run tests
 
-* Run `gem install rspec` to install Rspec,
-* Run `rspec spec` to run all the test cases, and
-* Run `rspec spec/name_of_test_file.rb` to run test cases individually.
-
+  * no tests
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👤 Authors <a name="authors"></a>
