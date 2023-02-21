@@ -33,7 +33,7 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby on Rails</a></li>
   </ul>
 </details>
 
@@ -59,20 +59,26 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- An IDE e.g [Visual studio code](https://code.visualstudio.com/).
-- [A terminal](https://code.visualstudio.com/docs/terminal/basics).
+  * An IDE e.g [Visual studio code](https://code.visualstudio.com/).
+  * [A terminal](https://code.visualstudio.com/docs/terminal/basics).
+
+  * Make sure you have Ruby installed in your system. You can install it [here](https://www.ruby-lang.org/en/documentation/installation/)
+
+  * Get started with [Ruby on Rails](https://guides.rubyonrails.org/getting_started.html).
+
+  * Make sure you have [PostgreSQL](https://www.postgresql.org/) installed and running.
 
 ### Setup
 
 Clone this repository to your desired folder or download the Zip folder:
 
 ```
-git clone https://github.com/Strangeal/Blog app.git
+git clone https://github.com/ndikumanaisaie/Blogapp.git
 ```
 
-- Navigate to the location of the folder in your machine:
+  * Navigate to the location of the folder in your machine:
 
-**`you@your-Pc-name:~$ cd Blog app`**
+  **`you@your-Pc-name:~$ cd Blogapp`**
 
 ### Install
 
@@ -86,21 +92,25 @@ bundle install
 
 To run the project, follow these instructions:
 
-- After Cloning this repo to your local machine.
-- To get it running in your terminal, run it in your IDE
+  * After Cloning this repo to your local machine.
+  * To get it running in your terminal, run it in your IDE
 
 ### Demo Video
 
-[Catalog of my things](https://drive.google.com/file/d/1b0IEjy_urPBl8pkqx7yKP6bupoYsDwEt/view?usp=sharing)
+  * No video
+
+### Running the app
+
+  *  Run rake `db:create:all` and `rake db:migrate`
+  *  Run `rake db:seed` to populate the database with some sample data.
+  *  Run `rails s` to start the server.
+  *  In your browser, go to `http://localhost:3000`.
 
 ### Run tests
 
-To run tests, run the following command:
-
-```
-rubocop
-rspec
-```
+* Run `gem install rspec` to install Rspec,
+* Run `rspec spec` to run all the test cases, and
+* Run `rspec spec/name_of_test_file.rb` to run test cases individually.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
