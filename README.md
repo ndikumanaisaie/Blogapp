@@ -20,7 +20,7 @@
 
 # 📖 Blog app <a name="about-project"></a>
 
->Blog app is a fully functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts., 
+>This Blog app is a fully functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts., 
 
 ### The App UML Class Diagram
 
